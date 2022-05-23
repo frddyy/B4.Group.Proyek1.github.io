@@ -1,0 +1,655 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>B4 - Informatics Engineering</title>
+  <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css">
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/tooplate-infinite-loop.css">
+<!--
+Tooplate 2117 Infinite Loop
+https://www.tooplate.com/view/2117-infinite-loop
+-->
+
+<script type="text/javascript" src="Chart.js"></script><script type="text/javascript" src="xlsx.full.min.js"></script><script type="text/javascript" src="chartjs-plugin-datasource.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script><script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script><script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script><script src="js/chartjs-plugin-datasource.js"></script><script src="js/xlsx.full.min.js"></script><style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>    
+  <!-- Hero section -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md tm-navbar scroll" id="tmNav">              
+      <div class="container">   
+        <div class="tm-next">
+            <a href="#infinite" class="navbar-brand">B4 Group</a>
+        </div>             
+          
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars navbar-toggler-icon"></i>
+        </button>
+
+       <!--  <div  style="font-size: 30px; color:rgb(52, 4, 223)" class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a  style="font-size: 30px; color:rgb(52, 4, 223)" class="nav-link tm-nav-link" href="#infinite">Home</a>
+            </li>
+            -->
+            <li class="nav-item">
+                <a style="font-size: 30px; color:rgb(52, 4, 223)" class="nav-link tm-nav-link current" href="#whatwedo">Back to up</a>
+            </li>
+            <!--
+            <li class="nav-item">
+              <a  style="font-size: 30px; color:rgb(52, 4, 223)"class="nav-link tm-nav-link" href="#testimonials">Members</a>
+            </li>
+             -->
+            <li class="nav-item">
+                <a style="font-size: 30px; color:rgb(52, 4, 223)" class="nav-link tm-nav-link" href="#gallery">Back to home</a>
+            </li>
+            <li class="nav-item">
+                <a style="font-size: 30px; color:rgb(52, 4, 223)" class="nav-link tm-nav-link" href="#contact">Contact</a>
+            </li>                    
+          
+        </div>        
+      
+    </nav>
+    <br>
+   
+    
+    
+      
+          
+  
+
+  <section id="whatwedo" class="tm-section-pad-top">
+    
+    <div class="container">
+
+          <div class="row tm-content-box"><!-- first row -->
+              <div class="col-lg-12 col-xl-12">
+              <div class="tm-intro-text-container">
+             <div class="right_col" role="main">
+                <div class="page-title">
+                  <div class="title_left">
+                    
+                    <h1 style="font-size: 45px; color:rgb(137, 144, 10)">Visualisasi</h1>
+                    <br>
+                    <br>
+                    <br>
+                  </div>
+                  <div class="clearfix"></div>
+        <div class="row">
+          <div class="col-md-6 col-sm-8  ">
+            <div class="x_panel">
+              <div class="x_title">
+                <h3><center>Jumlah Perusahaan Yang Ikut Tender Per Tahun</center></h3>
+                <div class="clearfix"></div>
+              </div>
+              <div style="font-size: 45px; color:rgb(201, 201, 7)" class="x_content"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                <canvas id="one" width="278" height="139" style="display: block; width: 278px; height: 139px;" class="chartjs-render-monitor"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-8 ">
+            <div class="x_panel">
+              <div class="x_title">
+                <h3><center>Jumlah peserta tender terbanyak tiap tahun</center></h3>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                <canvas id="two" width="278" height="139" style="display: block; width: 278px; height: 139px;" class="chartjs-render-monitor"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <br>
+          <div class="row">
+            <div class="col-md-6 col-sm-8  ">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h3><center>10 Perusahaan yang sering menang </center></h3>
+                  <div class="clearfix"></div>
+                </div>
+                <div style="font-size: 45px; color:rgb(201, 201, 7)" class="x_content"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                  <canvas id="three" width="278" height="139" style="display: block; width: 278px; height: 139px;" class="chartjs-render-monitor"></canvas>
+                </div>
+              </div>
+            </div>
+<!-- <div class="container"> -->
+            <div class="col-md-6 col-sm-8 ">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h3><center>Jumlah tender selesai</center></h3>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                  <canvas id="four" width="278" height="139" style="display: block; width: 278px; height: 139px;" class="chartjs-render-monitor"></canvas>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <br>
+          <div class="row">
+            <div class="col-md-6 col-sm-8  ">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h3><center>Jumlah Tender dengan Nilai Pagu Terbesar</center></h3>
+                  <div class="clearfix"></div>
+                </div>
+                <div style="font-size: 45px; color:rgb(201, 201, 7)" class="x_content"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                  <canvas id="six" width="278" height="139" style="display: block; width: 278px; height: 139px;" class="chartjs-render-monitor"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-8 ">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h3><center>Jumlah Tender Batal</center></h3>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                  <canvas id="five" width="278" height="139" style="display: block; width: 278px; height: 139px;" class="chartjs-render-monitor"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="container">
+    <style type="text/css">
+      table.tableizer-table {
+        font-size: 12px;
+        border: 1px solid #CCC; 
+        font-family: Arial, Helvetica, sans-serif;
+      } 
+      .tableizer-table td {
+        padding: 4px;
+        margin: 3px;
+        border: 1px solid #CCC;
+      }
+      .tableizer-table th {
+        background-color: #FF7F50; 
+        color: #FFF;
+        font-weight: bold;
+      }
+    </style>
+    <table class="tableizer-table">
+    <thead><tr class="tableizer-firstrow"><th><center>Kode</center></th><th><center>Nama Tender</center></th></tr></thead><tbody>
+     <tr><td>4789251</td><td>Pembangunan Booster Air Tegal Binangun spse 4.3</td></tr>
+     <tr><td>7462251</td><td>Pembangunan Pipa dan aksesoris booster air tegal binangun kecamatan plaju (lanjutan) spse 4.3</td></tr>
+     <tr><td>4092251</td><td>Belanja Modal Pengadaan Konstruksi/ Pembangunan Pengembangan Gedung Rumah Sakit Lanjutan spse 3</td></tr>
+     <tr><td>11094251</td><td>Pembangunan SPAM Gandus (Booster Pompa Alang-Alang Lebar 2 Tender Gagal Tender Ulang spse 4.4</td></tr>
+     <tr><td>11048251</td><td>Pembangunan SPAM Gandus (Booster Pompa Alang-Alang Lebar 2 spse 4.4</td></tr>
+    </tbody></table>
+        
+
+
+
+
+
+
+
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-md-6">
+        <div class="x_panel">
+          <div class="x_title">
+            <h3><center>Lima Tender dengan Nilai Pagu Terkecil</center></h3>
+            <div class="clearfix"></div>
+          </div>
+          <div  class="x_content"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div       class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+            <canvas  id="seven" width="200" height="125" style="display: block; width: 278px; height: 139px;" class="chartjs-render-monitor"></canvas>
+          </div>
+        </div>
+        </div>
+        <div style="margin-left:auto;margin-right:auto;">
+          <br>
+          <style type="text/css">
+            table.tableizer-table {
+              font-size: 12px;
+              border: 1px solid #CCC; 
+              font-family: Arial, Helvetica, sans-serif;
+            } 
+            .tableizer-table td {
+              padding: 4px;
+              margin: 3px;
+              border: 1px solid #CCC;
+            }
+            .tableizer-table th {
+              background-color: #5F9EA0; 
+              color: #FFF;
+              font-weight: bold;
+            }
+          </style>
+          <table class="tableizer-table">
+          <thead><tr class="tableizer-firstrow"><th><center>Kode</center></th><th><center>Nama Tender</center></th></tr></thead><tbody>
+           <tr><td>4256251</td><td>Pengawasan Pembangunan USB SMPN 60 dan Pembangunan RKB SDN 216 Seleksi Ulang spse 3</td></tr>
+           <tr><td>3877251</td><td>Pengawasan Pembangunan USB SMPN 60 dan Pembangunan RKB SDN 216 Seleksi Gagal spse 3</td></tr>
+           <tr><td>3875251</td><td>Pengawasan Rehab bertingkat SDN 238, Rehab SDN 143 spse 3</td></tr>
+           <tr><td>3859251</td><td>Perencanaan USB SMPN 60 dan Pembangunan RKB SDN 216 spse 3</td></tr>
+           <tr><td>3912251</td><td>Pengawasan Pembangunan Gedung Tambahan Bidang Tata Bangunan dan Tata Ruang Dinas PUPR Palembang spse 3</td></tr>
+          </tbody></table>
+        </div>
+      </div>
+      <div class="col-md-3">
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+          
+
+<br>
+<div class="container">
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<h3><center>10 Perusahaan yang Tidak Pernah Menang</center></h3>
+
+<table class="tableizer-table" style="margin-left:auto;margin-right:auto">
+<thead><tr class="tableizer-firstrow"><th><center>Nama Perusahaan</center></th><th>Jumlah Menang</th></tr></thead><tbody>
+ <tr><td>ADHEAN KARYA</td><td>0</td></tr>
+ <tr><td>Adiguna Sejahtera,CV</td><td>0</td></tr>
+ <tr><td>ADYA NADIRA</td><td>0</td></tr>
+ <tr><td>AH Mandiri</td><td>0</td></tr>
+ <tr><td>Anak Rantau Asli Banten</td><td>0</td></tr>
+ <tr><td>Anugerah Kencana</td><td>0</td></tr>
+ <tr><td>ANUGRAH PRATAMA INSANI</td><td>0</td></tr>
+ <tr><td>ARCH CONSULTANT ENGINEERING 4</td><td>0</td></tr>
+ <tr><td>ARINDA PERSADA</td><td>0</td></tr>
+ <tr><td>ARJUNA JAYA MANDIRI</td><td>0</td></tr>
+</tbody></table>
+<style>
+.ecantik3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+</style>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+  <section id="gallery" class="tm-section-pad-top">
+    <div class="container tm-container-gallery">
+      <div class="row">
+        <div class="text-center col-12">
+            <div class="row tm-content-box"><!-- first row -->
+              <div class="col-lg-12 col-xl-12">
+                  <div class="tm-intro-text-container">
+                      <h2 class="tm-text-primary mb-4 tm-section-title">Terima kasih telah melihat Visualisasi Data kelompok kami</h2>
+                      <p class="mb-4 tm-intro-text">
+                        Tekan tombol dibawah untuk kembali ke menu home.</p>
+                         <li> 
+                        <button type="button" class="collapsible"><a href="website.html"><i></i> Back to home<span class=""></span></a></button>
+                          
+                        </li>
+
+                      </div>
+              </div>
+        </div>            
+      </div>
+      <div class="row">
+          <div class="col-12">
+              <div class="mx-auto tm-gallery-container">
+              </div>                
+          </div>        
+        </div>
+    </div>
+  </div></section>
+
+  <!-- Contact -->
+  <section id="contact" class="tm-section-pad-top tm-parallax-2" style="background-attachment: fixed; background-position: center center;">
+  
+    <div class="container tm-container-contact">
+      
+      <div class="row">
+          
+          <div class="text-center col-12">
+              <h2 class="tm-section-title mb-4">Get to Know Us</h2>
+              <p class="mb-5">
+                   Profil Jurusan Teknik Komputer dan Informatika POLBAN 2022.
+                  </p><br>
+          </div>
+          <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/hs2fQMt2n2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          <h2><br>
+
+          <div class="text-center col-12">
+            <form action="" method="get">
+              <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required="">
+              <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required="">
+              <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required=""></textarea>
+              <button type="submit" class="btn tm-btn-submit">Submit</button>
+            </form>
+          </div>
+          
+          <div class="col-sm-12 col-md-6">
+              <div class="contact-item">
+                <a rel="nofollow" href="mailto:polban@polban.ac.id" class="item-link">
+                    <i class="far fa-2x fa-envelope mr-4"></i>
+                    <span class="mb-0">polban@polban.ac.id</span>
+                </a>              
+              </div>
+
+              <div class="contact-item">
+                <a rel="nofollow" href="tel:0100200340" class="item-link">
+                    <i class="fas fa-2x fa-phone-square mr-4"></i>
+                    <span class="mb-0">(022) 2013789</span>
+                </a>              
+              </div>
+              
+              <div class="contact-item">
+                <a rel="nofollow" href="https://goo.gl/maps/nVoaipb971GomkkU7" class="item-link">
+                    <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
+                    <span class="mb-0">Our Location</span>
+                </a>              
+              </div>
+            </div>
+            <div class="text-center col-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.613885573883!2d107.5737725!3d-6.8722074!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10569255865460a5!2sPoliteknik%20Negeri%20Bandung!5e0!3m2!1sid!2sid!4v1652435009781!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2><br>
+            </h2></div>
+              
+              
+              
+              <div class="contact-item">&nbsp;</div>
+          
+          </h2></div>
+          
+          
+      </div><!-- row ending -->
+      
+    
+
+      <footer class="text-center small tm-footer">
+        <p class="mb-0">
+     
+        </p>
+      </footer>
+
+  </section>
+  
+  <script src="js/jquery-1.9.1.min.js"></script>     
+  <script src="slick/slick.min.js"></script>
+  <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/easing.min.js"></script>
+  <script src="js/jquery.singlePageNav.min.js"></script>     
+  <script src="js/bootstrap.min.js"></script> 
+  <script>
+
+    function getOffSet(){
+      var _offset = 450;
+      var windowHeight = window.innerHeight;
+
+      if(windowHeight > 500) {
+        _offset = 400;
+      } 
+      if(windowHeight > 680) {
+        _offset = 300
+      }
+      if(windowHeight > 830) {
+        _offset = 210;
+      }
+
+      return _offset;
+    }
+
+    function setParallaxPosition($doc, multiplier, $object){
+      var offset = getOffSet();
+      var from_top = $doc.scrollTop(),
+        bg_css = 'center ' +(multiplier * from_top - offset) + 'px';
+      $object.css({"background-position" : bg_css });
+    }
+
+    // Parallax function
+    // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+    var background_image_parallax = function($object, multiplier, forceSet){
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      // $object.css({"background-attatchment" : "fixed"});
+
+      if(forceSet) {
+        setParallaxPosition($doc, multiplier, $object);
+      } else {
+        $(window).scroll(function(){          
+          setParallaxPosition($doc, multiplier, $object);
+        });
+      }
+    };
+
+    var background_image_parallax_2 = function($object, multiplier){
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      $object.css({"background-attachment" : "fixed"});
+      
+      $(window).scroll(function(){
+        if($(window).width() > 768) {
+          var firstTop = $object.offset().top,
+              pos = $(window).scrollTop(),
+              yPos = Math.round((multiplier * (firstTop - pos)) - 186);              
+
+          var bg_css = 'center ' + yPos + 'px';
+
+          $object.css({"background-position" : bg_css });
+        } else {
+          $object.css({"background-position" : "center" });
+        }
+      });
+    };
+    
+    $(function(){
+      // Hero Section - Background Parallax
+      background_image_parallax($(".tm-parallax"), 0.30, false);
+      background_image_parallax_2($("#contact"), 0.80);   
+      background_image_parallax_2($("#testimonials"), 0.80);   
+      
+      // Handle window resize
+      window.addEventListener('resize', function(){
+        background_image_parallax($(".tm-parallax"), 0.30, true);
+      }, true);
+
+      // Detect window scroll and update navbar
+      $(window).scroll(function(e){          
+        if($(document).scrollTop() > 120) {
+          $('.tm-navbar').addClass("scroll");
+        } else {
+          $('.tm-navbar').removeClass("scroll");
+        }
+      });
+      
+      // Close mobile menu after click 
+      $('#tmNav a').on('click', function(){
+        $('.navbar-collapse').removeClass('show'); 
+      })
+
+      // Scroll to corresponding section with animation
+      $('#tmNav').singlePageNav({
+        'easing': 'easeInOutExpo',
+        'speed': 600
+      });        
+      
+      // Add smooth scrolling to all links
+      // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 600, 'easeInOutExpo', function(){
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+
+      // Pop up
+      $('.tm-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: { enabled: true }
+      });
+
+      $('.tm-testimonials-carousel').slick({
+        dots: true,
+        prevArrow: false,
+        nextArrow: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2
+            }
+          }, 
+          {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1
+            }                 
+          }
+        ]
+      });
+
+      // Gallery
+      $('.tm-gallery').slick({
+        dots: true,
+        infinite: false,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        responsive: [
+        {
+          breakpoint: 1199,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+      });
+    });
+
+  </script>
+  <script src="assets/js/collapse.js"></script>
+  <script src="script.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+// <![CDATA[  <-- For SVG support
+if ('WebSocket' in window) {
+  (function () {
+    function refreshCSS() {
+      var sheets = [].slice.call(document.getElementsByTagName("link"));
+      var head = document.getElementsByTagName("head")[0];
+      for (var i = 0; i < sheets.length; ++i) {
+        var elem = sheets[i];
+        var parent = elem.parentElement || head;
+        parent.removeChild(elem);
+        var rel = elem.rel;
+        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+          var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+          elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+        }
+        parent.appendChild(elem);
+      }
+    }
+    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+    var address = protocol + window.location.host + window.location.pathname + '/ws';
+    var socket = new WebSocket(address);
+    socket.onmessage = function (msg) {
+      if (msg.data == 'reload') window.location.reload();
+      else if (msg.data == 'refreshcss') refreshCSS();
+    };
+    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+      console.log('Live reload enabled.');
+      sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+    }
+  })();
+}
+else {
+  console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+}
+// ]]>
+</script>
+</section></body></html>
